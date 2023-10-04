@@ -1,0 +1,135 @@
+header {
+
+    background: maroon;
+    color: gold;
+    height: 115px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+    #logo {
+
+        display: flex;
+        margin: 15px;
+        vertical-align: middle;
+        flex-direction: row;
+        justify-content: start;
+
+    }
+
+    .links {
+
+        display:flex;
+        gap: 1em;
+        flex-direction: row;
+        justify-content: end;
+
+    }
+
+    .text-gold {
+
+        color: gold;
+
+    }
+
+    .contents {
+
+        display: flex;
+        flex-direction: row;
+
+    }
+
+aside {
+
+    flex: 1;
+    background: beige;
+    height: auto;
+    width: 230px;
+    color: brown;
+    text-align: left;
+    display: flex;
+    justify-content: start;
+
+}
+
+    .menu {
+
+        height: 230px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around; 
+
+    }
+
+    .text-brown {
+
+        color: brown;
+
+    }
+
+main {
+
+    flex: 5;
+    height: auto;
+    display: flex;
+    background: lightgrey;
+    flex-direction: column;
+    justify-content: stretch;
+
+}
+
+    .button {
+
+        display: block;
+        margin: auto;
+
+    }
+
+        .click-btn {
+
+            height: 40px;
+            width: 230px;
+            background: maroon;
+            border-width: 3px;
+            border-color: white;
+            border-style: dotted;
+            color: gold;
+
+        }
+
+    .article {
+
+        text-align: center;
+        color: brown;
+
+    }    
+
+    .text {
+
+        
+        font-size: 14;
+        color: black;
+        text-align: justify;
+        display: flex;
+
+    }
+
+    .photo {
+
+        align-content: center;
+
+    }
+
+footer {
+
+background: maroon;
+
+}
+
+header, aside, main, footer {
+
+    padding: 20px;
+
+}
