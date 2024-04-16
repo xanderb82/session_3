@@ -23,6 +23,8 @@ header {
 
         display:flex;
         gap: 1em;
+        font-size: large;
+        font-weight: bold;
         flex-direction: row;
         justify-content: end;
 
@@ -31,6 +33,7 @@ header {
     .text-gold {
 
         color: gold;
+        text-decoration: none;
 
     }
 
@@ -44,9 +47,12 @@ header {
 aside {
 
     flex: 1;
+    margin: 4px;
     background: beige;
     height: auto;
     width: 230px;
+    font-size: large;
+    font-weight: bold;
     color: brown;
     text-align: left;
     display: flex;
@@ -66,12 +72,14 @@ aside {
     .text-brown {
 
         color: brown;
+        text-decoration: none;
 
     }
 
 main {
 
     flex: 5;
+    margin: 4px;
     height: auto;
     display: flex;
     background: lightgrey;
@@ -101,7 +109,10 @@ main {
 
     .article {
 
+        padding-left: 50px;
+        padding-right: 50px;
         text-align: center;
+        font-size: large;
         color: brown;
 
     }    
@@ -119,6 +130,159 @@ main {
     .photo {
 
         align-content: center;
+
+    }
+
+    .contact-form {
+
+        display: block;
+        padding: 30px;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin: 50px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        box-sizing: border-box;
+        border-color: white;
+        border-style: dotted;
+        border-width: 2px;
+        border-radius: 10px;
+        flex-direction: column;
+        box-shadow: 0 0 15px 4px rgba(88, 5, 5, 0.445);
+
+    }
+
+    .birthdate {
+
+        display: block;
+        padding: 30px;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin: 50px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        box-sizing: border-box;
+        border-color: white;
+        border-style: dotted;
+        border-width: 2px;
+        border-radius: 10px;
+        flex-direction: column;
+        box-shadow: 0 0 15px 4px rgba(88, 5, 5, 0.445);
+
+    }
+
+    .form-input {
+
+        display: inline-block;
+        align-content: center;
+        margin: 12px;
+        padding: 7px;
+        padding-left: 20px;
+        box-sizing: border-box;
+        width: 500px;
+        border-radius: 15px;
+        border-width: 2px;
+        border-style: dotted;
+        border-color: white;
+        box-shadow: 0 0 15px 4px rgba(88, 5, 5, 0.445);
+
+    }
+
+    .form-subject {
+
+        display: inline-block;
+        box-sizing: border-box;
+        margin: 12px;
+        width: 500px;
+        padding: 7px;
+        padding-left: 20px;
+        border-radius: 15px;
+        border-width: 2px;
+        border-style: dotted;
+        border-color: white;
+        box-shadow: 0 0 15px 4px rgba(88, 5, 5, 0.445);
+
+    }
+
+    .form-label {
+
+        display: inline-block;
+        margin-top: 10px;
+        box-sizing: border-box;
+        text-align: left;
+        width: 520px;
+        color: darkolivegreen;
+        text-shadow: 0 rgba(88, 5, 5, 0.445);;
+
+    }
+
+    .submit {
+
+        display: inline-block;
+        box-sizing: border-box;
+        margin: 12px;
+        height: 57px;
+        width: 500px;
+        padding: 5px;
+        border-radius: 30px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: maroon;
+        background: maroon;
+        color: lightyellow;
+        font-weight: bolder;
+        font-size: larger;
+        box-shadow: 0 0 15px 4px rgba(88, 5, 5, 0.445);
+
+    }
+
+    .form-result {
+
+        display: none;
+        box-sizing: border-box;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-left: 10px;
+        padding-right: 40px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: justify;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: large;
+        color: darkolivegreen;
+        list-style-type: none;
+        border-color: white;
+        border-style: dotted;
+        border-width: 2px;
+        border-radius: 10px;
+        box-shadow: 0 0 15px 4px rgba(88, 5, 5, 0.445);
+
+    }
+
+    ::first-letter {
+
+        text-transform: uppercase;
+
+    }
+
+    .age {
+
+        display: none;
+        box-sizing: border-box;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding: 30px;
+        text-align: center;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        font-size: large;
+        color: darkolivegreen;
+        list-style-type: none;
+        border-color: white;
+        border-style: dotted;
+        border-width: 2px;
+        border-radius: 10px;
+        box-shadow: 0 0 15px 4px rgba(88, 5, 5, 0.445);
 
     }
 

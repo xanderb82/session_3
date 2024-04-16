@@ -104,29 +104,72 @@
                             
                         <p class="text">На этом, собственно, вопросы к картине Шантаж иссякают. Вступление, дающее нам представление о жизни Фрэнка и Элис, может показаться немного затянутым. С другой же стороны, я бы не хотел обходиться без подобных вводных деталей. Ведь больше всего я люблю то кино, которое позволяет воспринять объемные образы людей, Становится понятнее логика их поступков в тот момент, когда начинается действие. И вот в тот момент, когда приходит основной сюжет, ты понимаешь, что перед тобой идеальный, классический Альфред Хичкок. Его ранние работы очень просты для восприятия и, при этом, увлекательны. В них всегда есть интрига и симпатия к герою, без преувеличения. В этом, наверно, и есть одна из граней таланта режиссера - в умении подобрать правильные лица. Особый и бесспорный восторг, в этом смысле, лично у меня вызывают и облик, и харизма, и игра Дональда Калтропа, воплотившего собой эталонного злодея Трейси. Ради этого едкого прищура во взгляде стоит устроить повторный просмотр, и не раз.</p>
 
-                        <form method="post" id="contact-form">
+                </div>
 
-                            <label for="fname">First Name</label>
-                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <div class="article">
+
+                    <h3>LET'S HAVE A SMALL TALK NOW:</h3>
+
+                        <form method="post" id="contact-form" class="contact-form">
+
+                            <label for="fname" class="form-label">First Name</label>
+                            <input type="text" id="fname" class="form-input" name="firstname" placeholder="Your name..">
                         
-                            <label for="lname">Last Name</label>
-                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                            <label for="lname" class="form-label">Last Name</label>
+                            <input type="text" id="lname" class="form-input" name="lastname" placeholder="Your last name..">
                         
-                            <label for="country">Country</label>
-                            <select id="country" name="country">
+                            <label for="country" class="form-label">Country</label>
+                            <select id="country" class="form-input" name="country">
                                 <option value="australia">Australia</option>
                                 <option value="canada">Canada</option>
                                 <option value="usa">USA</option>
                             </select>
                         
-                            <label for="subject">Subject</label>
-                            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                            <label for="subject" class="form-label">Subject</label>
+                            <textarea id="subject" class="form-subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
                         
-                            <input type="submit" value="Submit">
+                            <input type="submit" class="submit" value="Submit">
 
-                          </form>
+                        </form>
 
-                          <div id="form-result"></div>
+                        <div id="form-result" class="form-result"></div>
+
+                </div>
+
+                <div class="article">
+
+                    <h3>CHECK YOUR AGE IN CASE YOU FORGOT:</h3>
+
+                        <form method="post" id="birthdate" class="birthdate">
+                   
+                            <label for="year" class="form-label">Year</label>
+                            <input type="text" id="year" class="form-input" name="year" placeholder="Enter the year of your birth..">
+
+                            <label for="month" class="form-label">Month</label>
+                            <select id="month" class="form-input" name="month">
+                                <option value="Select the month of your birth..">Select the month of your birth..</option>
+                                <option value="january">January</option>
+                                <option value="february">February</option>
+                                <option value="march">March</option>
+                                <option value="april">April</option>
+                                <option value="may">May</option>
+                                <option value="june">June</option>
+                                <option value="july">July</option>
+                                <option value="august">August</option>
+                                <option value="september">September</option>
+                                <option value="october">October</option>
+                                <option value="november">November</option>
+                                <option value="december">December</option>
+                            </select>
+
+                            <label for="day" class="form-label">Day</label>
+                            <input type="text" id="day" class="form-input" name="day" placeholder="Enter the day of your birth..">
+                
+                            <input type="submit" class="submit" value="Submit">
+
+                        </form>
+
+                        <div id="age" class="age"></div>
 
                 </div>
 
